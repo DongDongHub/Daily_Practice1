@@ -1,0 +1,140 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEFAULT_PORT	basic_io_header.h	20;"	d
+EPOLL_IO_IMPLEMENT	epoll_server_implement.h	8;"	d
+EpollIoImplement	epoll_server_implement.cpp	/^EpollIoImplement::EpollIoImplement()$/;"	f	class:EpollIoImplement	signature:()
+EpollIoImplement	epoll_server_implement.h	/^	 EpollIoImplement();$/;"	p	class:EpollIoImplement	access:public	signature:()
+EpollIoImplement	epoll_server_implement.h	/^class EpollIoImplement $/;"	c
+EpollIoImplement::EpollIoImplement	epoll_server_implement.cpp	/^EpollIoImplement::EpollIoImplement()$/;"	f	class:EpollIoImplement	signature:()
+EpollIoImplement::EpollIoImplement	epoll_server_implement.h	/^	 EpollIoImplement();$/;"	p	class:EpollIoImplement	access:public	signature:()
+EpollIoImplement::acceptNewClient	epoll_server_implement.cpp	/^void EpollIoImplement::acceptNewClient()$/;"	f	class:EpollIoImplement	signature:()
+EpollIoImplement::acceptNewClient	epoll_server_implement.h	/^void acceptNewClient( );$/;"	p	class:EpollIoImplement	access:private	signature:( )
+EpollIoImplement::addFd	epoll_server_implement.cpp	/^bool  EpollIoImplement::addFd(int nFd, int op , uint32_t nEvents)$/;"	f	class:EpollIoImplement	signature:(int nFd, int op , uint32_t nEvents)
+EpollIoImplement::addFd	epoll_server_implement.h	/^bool  addFd(int nFd, int op , uint32_t nEvents);$/;"	p	class:EpollIoImplement	access:private	signature:(int nFd, int op , uint32_t nEvents)
+EpollIoImplement::loopFileDescriptorEvent	epoll_server_implement.cpp	/^void EpollIoImplement::loopFileDescriptorEvent(int nListenSocket )$/;"	f	class:EpollIoImplement	signature:(int nListenSocket )
+EpollIoImplement::loopFileDescriptorEvent	epoll_server_implement.h	/^void loopFileDescriptorEvent(int nListenSocket ) ;$/;"	p	class:EpollIoImplement	access:public	signature:(int nListenSocket )
+EpollIoImplement::m_aEpollEvent	epoll_server_implement.h	/^	epoll_event m_aEpollEvent[MAX_CONN];$/;"	m	class:EpollIoImplement	access:private
+EpollIoImplement::m_epollEvent	epoll_server_implement.h	/^	epoll_event m_epollEvent;$/;"	m	class:EpollIoImplement	access:private
+EpollIoImplement::m_nCurrConnCount	epoll_server_implement.h	/^	int m_nCurrConnCount;$/;"	m	class:EpollIoImplement	access:private
+EpollIoImplement::m_nEpFd	epoll_server_implement.h	/^	int m_nEpFd;$/;"	m	class:EpollIoImplement	access:private
+EpollIoImplement::m_nListenSocket	epoll_server_implement.h	/^	int m_nListenSocket;$/;"	m	class:EpollIoImplement	access:private
+EpollIoImplement::recvClientMsg	epoll_server_implement.cpp	/^void EpollIoImplement::recvClientMsg(int nFdIndex)$/;"	f	class:EpollIoImplement	signature:(int nFdIndex)
+EpollIoImplement::recvClientMsg	epoll_server_implement.h	/^void recvClientMsg(int nFdIndex);$/;"	p	class:EpollIoImplement	access:private	signature:(int nFdIndex)
+INITIAL_LISTENING_STATUS	server_listen_initial.h	10;"	d
+InitialListeningStatus	server_listen_initial.cpp	/^InitialListeningStatus::InitialListeningStatus( const char* ipAddr, int nPort)$/;"	f	class:InitialListeningStatus	signature:( const char* ipAddr, int nPort)
+InitialListeningStatus	server_listen_initial.h	/^		InitialListeningStatus( const char* ipAddr, int nPort );$/;"	p	class:InitialListeningStatus	access:public	signature:( const char* ipAddr, int nPort )
+InitialListeningStatus	server_listen_initial.h	/^class InitialListeningStatus$/;"	c
+InitialListeningStatus::InitialListeningStatus	server_listen_initial.cpp	/^InitialListeningStatus::InitialListeningStatus( const char* ipAddr, int nPort)$/;"	f	class:InitialListeningStatus	signature:( const char* ipAddr, int nPort)
+InitialListeningStatus::InitialListeningStatus	server_listen_initial.h	/^		InitialListeningStatus( const char* ipAddr, int nPort );$/;"	p	class:InitialListeningStatus	access:public	signature:( const char* ipAddr, int nPort )
+InitialListeningStatus::bindSockAddr	server_listen_initial.cpp	/^bool InitialListeningStatus::bindSockAddr( int nFd )$/;"	f	class:InitialListeningStatus	signature:( int nFd )
+InitialListeningStatus::bindSockAddr	server_listen_initial.h	/^		bool  bindSockAddr( int nFd);$/;"	p	class:InitialListeningStatus	access:private	signature:( int nFd)
+InitialListeningStatus::listenSockAddr	server_listen_initial.cpp	/^bool InitialListeningStatus::listenSockAddr( int nFd, int nLength )$/;"	f	class:InitialListeningStatus	signature:( int nFd, int nLength )
+InitialListeningStatus::listenSockAddr	server_listen_initial.h	/^		bool listenSockAddr( int nFd, int nLength );$/;"	p	class:InitialListeningStatus	access:private	signature:( int nFd, int nLength )
+InitialListeningStatus::m_nPort	server_listen_initial.h	/^		int			m_nPort;$/;"	m	class:InitialListeningStatus	access:private
+InitialListeningStatus::m_pIpstr	server_listen_initial.h	/^		const char *m_pIpstr;$/;"	m	class:InitialListeningStatus	access:private
+InitialListeningStatus::m_sListenAddr	server_listen_initial.h	/^		sockaddr_in m_sListenAddr;$/;"	m	class:InitialListeningStatus	access:private
+InitialListeningStatus::makeListeningSocket	server_listen_initial.cpp	/^void InitialListeningStatus::makeListeningSocket()$/;"	f	class:InitialListeningStatus	signature:()
+InitialListeningStatus::makeListeningSocket	server_listen_initial.h	/^		void makeListeningSocket();$/;"	p	class:InitialListeningStatus	access:private	signature:()
+InitialListeningStatus::setSocketAddrReuse	server_listen_initial.cpp	/^bool InitialListeningStatus::setSocketAddrReuse(int nFd)$/;"	f	class:InitialListeningStatus	signature:(int nFd)
+InitialListeningStatus::setSocketAddrReuse	server_listen_initial.h	/^		bool setSocketAddrReuse( int nFd);$/;"	p	class:InitialListeningStatus	access:private	signature:( int nFd)
+InitialListeningStatus::startListening	server_listen_initial.cpp	/^bool InitialListeningStatus::startListening(int& nFd, int nListenLength)$/;"	f	class:InitialListeningStatus	signature:(int& nFd, int nListenLength)
+InitialListeningStatus::startListening	server_listen_initial.h	/^		bool startListening(int &nFd, int nListenLength);$/;"	p	class:InitialListeningStatus	access:public	signature:(int &nFd, int nListenLength)
+MAX_CONN	basic_io_header.h	21;"	d
+NET_STD_HEADERS	basic_io_header.h	2;"	d
+PollIoImplement	poll_server_implement.cpp	/^PollIoImplement::PollIoImplement()$/;"	f	class:PollIoImplement	signature:()
+PollIoImplement	poll_server_implement.h	/^	 PollIoImplement();$/;"	p	class:PollIoImplement	access:public	signature:()
+PollIoImplement	poll_server_implement.h	/^class PollIoImplement $/;"	c
+PollIoImplement::PollIoImplement	poll_server_implement.cpp	/^PollIoImplement::PollIoImplement()$/;"	f	class:PollIoImplement	signature:()
+PollIoImplement::PollIoImplement	poll_server_implement.h	/^	 PollIoImplement();$/;"	p	class:PollIoImplement	access:public	signature:()
+PollIoImplement::acceptNewClient	poll_server_implement.cpp	/^void PollIoImplement::acceptNewClient()$/;"	f	class:PollIoImplement	signature:()
+PollIoImplement::acceptNewClient	poll_server_implement.h	/^void acceptNewClient( );$/;"	p	class:PollIoImplement	access:private	signature:( )
+PollIoImplement::addFd	poll_server_implement.cpp	/^void  PollIoImplement::addFd(int nFd)$/;"	f	class:PollIoImplement	signature:(int nFd)
+PollIoImplement::addFd	poll_server_implement.h	/^void addFd(int nFd);$/;"	p	class:PollIoImplement	access:private	signature:(int nFd)
+PollIoImplement::loopFileDescriptorEvent	poll_server_implement.cpp	/^void PollIoImplement::loopFileDescriptorEvent(int nListenSocket )$/;"	f	class:PollIoImplement	signature:(int nListenSocket )
+PollIoImplement::loopFileDescriptorEvent	poll_server_implement.h	/^void loopFileDescriptorEvent(int nListenSocket ) ;$/;"	p	class:PollIoImplement	access:public	signature:(int nListenSocket )
+PollIoImplement::m_fPollFd	poll_server_implement.h	/^	pollfd m_fPollFd[MAX_CONN];$/;"	m	class:PollIoImplement	access:private
+PollIoImplement::m_nCurrConnCount	poll_server_implement.h	/^	int m_nCurrConnCount;$/;"	m	class:PollIoImplement	access:private
+PollIoImplement::m_nListenSocket	poll_server_implement.h	/^	int m_nListenSocket;$/;"	m	class:PollIoImplement	access:private
+PollIoImplement::recvClientMsg	poll_server_implement.cpp	/^void PollIoImplement::recvClientMsg(int nFdIndex)$/;"	f	class:PollIoImplement	signature:(int nFdIndex)
+PollIoImplement::recvClientMsg	poll_server_implement.h	/^void recvClientMsg(int nFdIndex);$/;"	p	class:PollIoImplement	access:private	signature:(int nFdIndex)
+PollIoImplement::removeInvalidFd	poll_server_implement.cpp	/^void PollIoImplement::removeInvalidFd(int nFdIndex)$/;"	f	class:PollIoImplement	signature:(int nFdIndex)
+PollIoImplement::removeInvalidFd	poll_server_implement.h	/^void removeInvalidFd(int nFd);$/;"	p	class:PollIoImplement	access:private	signature:(int nFd)
+SELECT_IO_IMPLEMENT	poll_server_implement.h	8;"	d
+SELECT_IO_IMPLEMENT	select_server_implement.h	7;"	d
+SelectIoImplement	select_server_implement.cpp	/^SelectIoImplement::SelectIoImplement()$/;"	f	class:SelectIoImplement	signature:()
+SelectIoImplement	select_server_implement.h	/^	 SelectIoImplement();$/;"	p	class:SelectIoImplement	access:public	signature:()
+SelectIoImplement	select_server_implement.h	/^class SelectIoImplement $/;"	c
+SelectIoImplement::SelectIoImplement	select_server_implement.cpp	/^SelectIoImplement::SelectIoImplement()$/;"	f	class:SelectIoImplement	signature:()
+SelectIoImplement::SelectIoImplement	select_server_implement.h	/^	 SelectIoImplement();$/;"	p	class:SelectIoImplement	access:public	signature:()
+SelectIoImplement::acceptNewClient	select_server_implement.cpp	/^void SelectIoImplement::acceptNewClient()$/;"	f	class:SelectIoImplement	signature:()
+SelectIoImplement::acceptNewClient	select_server_implement.h	/^void acceptNewClient( );$/;"	p	class:SelectIoImplement	access:private	signature:( )
+SelectIoImplement::addFd	select_server_implement.cpp	/^void  SelectIoImplement::addFd(int nFd)$/;"	f	class:SelectIoImplement	signature:(int nFd)
+SelectIoImplement::addFd	select_server_implement.h	/^void addFd(int nFd);$/;"	p	class:SelectIoImplement	access:private	signature:(int nFd)
+SelectIoImplement::loopFileDescriptorEvent	select_server_implement.cpp	/^void SelectIoImplement::loopFileDescriptorEvent(int nListenSocket )$/;"	f	class:SelectIoImplement	signature:(int nListenSocket )
+SelectIoImplement::loopFileDescriptorEvent	select_server_implement.h	/^void loopFileDescriptorEvent(int nListenSocket ) ;$/;"	p	class:SelectIoImplement	access:public	signature:(int nListenSocket )
+SelectIoImplement::m_aConn	select_server_implement.h	/^	int m_aConn[MAX_CONN];$/;"	m	class:SelectIoImplement	access:private
+SelectIoImplement::m_fReadSet	select_server_implement.h	/^	fd_set m_fReadSet;$/;"	m	class:SelectIoImplement	access:private
+SelectIoImplement::m_nCurrConnCount	select_server_implement.h	/^	int m_nCurrConnCount;$/;"	m	class:SelectIoImplement	access:private
+SelectIoImplement::m_nListenSocket	select_server_implement.h	/^	int m_nListenSocket;$/;"	m	class:SelectIoImplement	access:private
+SelectIoImplement::recvClientMsg	select_server_implement.cpp	/^void SelectIoImplement::recvClientMsg(int nFdIndex)$/;"	f	class:SelectIoImplement	signature:(int nFdIndex)
+SelectIoImplement::recvClientMsg	select_server_implement.h	/^void recvClientMsg(int nFdIndex);$/;"	p	class:SelectIoImplement	access:private	signature:(int nFdIndex)
+SelectIoImplement::removeInvalidFd	select_server_implement.cpp	/^void SelectIoImplement::removeInvalidFd(int nFdIndex)$/;"	f	class:SelectIoImplement	signature:(int nFdIndex)
+SelectIoImplement::removeInvalidFd	select_server_implement.h	/^void removeInvalidFd(int nFd);$/;"	p	class:SelectIoImplement	access:private	signature:(int nFd)
+acceptNewClient	epoll_server_implement.cpp	/^void EpollIoImplement::acceptNewClient()$/;"	f	class:EpollIoImplement	signature:()
+acceptNewClient	epoll_server_implement.h	/^void acceptNewClient( );$/;"	p	class:EpollIoImplement	access:private	signature:( )
+acceptNewClient	poll_server_implement.cpp	/^void PollIoImplement::acceptNewClient()$/;"	f	class:PollIoImplement	signature:()
+acceptNewClient	poll_server_implement.h	/^void acceptNewClient( );$/;"	p	class:PollIoImplement	access:private	signature:( )
+acceptNewClient	select_server_implement.cpp	/^void SelectIoImplement::acceptNewClient()$/;"	f	class:SelectIoImplement	signature:()
+acceptNewClient	select_server_implement.h	/^void acceptNewClient( );$/;"	p	class:SelectIoImplement	access:private	signature:( )
+addFd	epoll_server_implement.cpp	/^bool  EpollIoImplement::addFd(int nFd, int op , uint32_t nEvents)$/;"	f	class:EpollIoImplement	signature:(int nFd, int op , uint32_t nEvents)
+addFd	epoll_server_implement.h	/^bool  addFd(int nFd, int op , uint32_t nEvents);$/;"	p	class:EpollIoImplement	access:private	signature:(int nFd, int op , uint32_t nEvents)
+addFd	poll_server_implement.cpp	/^void  PollIoImplement::addFd(int nFd)$/;"	f	class:PollIoImplement	signature:(int nFd)
+addFd	poll_server_implement.h	/^void addFd(int nFd);$/;"	p	class:PollIoImplement	access:private	signature:(int nFd)
+addFd	select_server_implement.cpp	/^void  SelectIoImplement::addFd(int nFd)$/;"	f	class:SelectIoImplement	signature:(int nFd)
+addFd	select_server_implement.h	/^void addFd(int nFd);$/;"	p	class:SelectIoImplement	access:private	signature:(int nFd)
+bindSockAddr	server_listen_initial.cpp	/^bool InitialListeningStatus::bindSockAddr( int nFd )$/;"	f	class:InitialListeningStatus	signature:( int nFd )
+bindSockAddr	server_listen_initial.h	/^		bool  bindSockAddr( int nFd);$/;"	p	class:InitialListeningStatus	access:private	signature:( int nFd)
+listenSockAddr	server_listen_initial.cpp	/^bool InitialListeningStatus::listenSockAddr( int nFd, int nLength )$/;"	f	class:InitialListeningStatus	signature:( int nFd, int nLength )
+listenSockAddr	server_listen_initial.h	/^		bool listenSockAddr( int nFd, int nLength );$/;"	p	class:InitialListeningStatus	access:private	signature:( int nFd, int nLength )
+loopFileDescriptorEvent	epoll_server_implement.cpp	/^void EpollIoImplement::loopFileDescriptorEvent(int nListenSocket )$/;"	f	class:EpollIoImplement	signature:(int nListenSocket )
+loopFileDescriptorEvent	epoll_server_implement.h	/^void loopFileDescriptorEvent(int nListenSocket ) ;$/;"	p	class:EpollIoImplement	access:public	signature:(int nListenSocket )
+loopFileDescriptorEvent	poll_server_implement.cpp	/^void PollIoImplement::loopFileDescriptorEvent(int nListenSocket )$/;"	f	class:PollIoImplement	signature:(int nListenSocket )
+loopFileDescriptorEvent	poll_server_implement.h	/^void loopFileDescriptorEvent(int nListenSocket ) ;$/;"	p	class:PollIoImplement	access:public	signature:(int nListenSocket )
+loopFileDescriptorEvent	select_server_implement.cpp	/^void SelectIoImplement::loopFileDescriptorEvent(int nListenSocket )$/;"	f	class:SelectIoImplement	signature:(int nListenSocket )
+loopFileDescriptorEvent	select_server_implement.h	/^void loopFileDescriptorEvent(int nListenSocket ) ;$/;"	p	class:SelectIoImplement	access:public	signature:(int nListenSocket )
+m_aConn	select_server_implement.h	/^	int m_aConn[MAX_CONN];$/;"	m	class:SelectIoImplement	access:private
+m_aEpollEvent	epoll_server_implement.h	/^	epoll_event m_aEpollEvent[MAX_CONN];$/;"	m	class:EpollIoImplement	access:private
+m_epollEvent	epoll_server_implement.h	/^	epoll_event m_epollEvent;$/;"	m	class:EpollIoImplement	access:private
+m_fPollFd	poll_server_implement.h	/^	pollfd m_fPollFd[MAX_CONN];$/;"	m	class:PollIoImplement	access:private
+m_fReadSet	select_server_implement.h	/^	fd_set m_fReadSet;$/;"	m	class:SelectIoImplement	access:private
+m_nCurrConnCount	epoll_server_implement.h	/^	int m_nCurrConnCount;$/;"	m	class:EpollIoImplement	access:private
+m_nCurrConnCount	poll_server_implement.h	/^	int m_nCurrConnCount;$/;"	m	class:PollIoImplement	access:private
+m_nCurrConnCount	select_server_implement.h	/^	int m_nCurrConnCount;$/;"	m	class:SelectIoImplement	access:private
+m_nEpFd	epoll_server_implement.h	/^	int m_nEpFd;$/;"	m	class:EpollIoImplement	access:private
+m_nListenSocket	epoll_server_implement.h	/^	int m_nListenSocket;$/;"	m	class:EpollIoImplement	access:private
+m_nListenSocket	poll_server_implement.h	/^	int m_nListenSocket;$/;"	m	class:PollIoImplement	access:private
+m_nListenSocket	select_server_implement.h	/^	int m_nListenSocket;$/;"	m	class:SelectIoImplement	access:private
+m_nPort	server_listen_initial.h	/^		int			m_nPort;$/;"	m	class:InitialListeningStatus	access:private
+m_pIpstr	server_listen_initial.h	/^		const char *m_pIpstr;$/;"	m	class:InitialListeningStatus	access:private
+m_sListenAddr	server_listen_initial.h	/^		sockaddr_in m_sListenAddr;$/;"	m	class:InitialListeningStatus	access:private
+main	basic_server.cpp	/^int main(int argc ,char ** argv)$/;"	f	signature:(int argc ,char ** argv)
+makeListeningSocket	server_listen_initial.cpp	/^void InitialListeningStatus::makeListeningSocket()$/;"	f	class:InitialListeningStatus	signature:()
+makeListeningSocket	server_listen_initial.h	/^		void makeListeningSocket();$/;"	p	class:InitialListeningStatus	access:private	signature:()
+recvClientMsg	epoll_server_implement.cpp	/^void EpollIoImplement::recvClientMsg(int nFdIndex)$/;"	f	class:EpollIoImplement	signature:(int nFdIndex)
+recvClientMsg	epoll_server_implement.h	/^void recvClientMsg(int nFdIndex);$/;"	p	class:EpollIoImplement	access:private	signature:(int nFdIndex)
+recvClientMsg	poll_server_implement.cpp	/^void PollIoImplement::recvClientMsg(int nFdIndex)$/;"	f	class:PollIoImplement	signature:(int nFdIndex)
+recvClientMsg	poll_server_implement.h	/^void recvClientMsg(int nFdIndex);$/;"	p	class:PollIoImplement	access:private	signature:(int nFdIndex)
+recvClientMsg	select_server_implement.cpp	/^void SelectIoImplement::recvClientMsg(int nFdIndex)$/;"	f	class:SelectIoImplement	signature:(int nFdIndex)
+recvClientMsg	select_server_implement.h	/^void recvClientMsg(int nFdIndex);$/;"	p	class:SelectIoImplement	access:private	signature:(int nFdIndex)
+removeInvalidFd	poll_server_implement.cpp	/^void PollIoImplement::removeInvalidFd(int nFdIndex)$/;"	f	class:PollIoImplement	signature:(int nFdIndex)
+removeInvalidFd	poll_server_implement.h	/^void removeInvalidFd(int nFd);$/;"	p	class:PollIoImplement	access:private	signature:(int nFd)
+removeInvalidFd	select_server_implement.cpp	/^void SelectIoImplement::removeInvalidFd(int nFdIndex)$/;"	f	class:SelectIoImplement	signature:(int nFdIndex)
+removeInvalidFd	select_server_implement.h	/^void removeInvalidFd(int nFd);$/;"	p	class:SelectIoImplement	access:private	signature:(int nFd)
+setSocketAddrReuse	server_listen_initial.cpp	/^bool InitialListeningStatus::setSocketAddrReuse(int nFd)$/;"	f	class:InitialListeningStatus	signature:(int nFd)
+setSocketAddrReuse	server_listen_initial.h	/^		bool setSocketAddrReuse( int nFd);$/;"	p	class:InitialListeningStatus	access:private	signature:( int nFd)
+startListening	server_listen_initial.cpp	/^bool InitialListeningStatus::startListening(int& nFd, int nListenLength)$/;"	f	class:InitialListeningStatus	signature:(int& nFd, int nListenLength)
+startListening	server_listen_initial.h	/^		bool startListening(int &nFd, int nListenLength);$/;"	p	class:InitialListeningStatus	access:public	signature:(int &nFd, int nListenLength)
